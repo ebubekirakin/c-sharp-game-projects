@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\win11\\source\\repos\\flappyBird1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A2AF21-2100-464F-9EA3-04B53232E903}|flappyBird1\\flappyBird1.csproj|c:\\users\\win11\\source\\repos\\flappybird1\\flappybird1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D9A2AF21-2100-464F-9EA3-04B53232E903}|flappyBird1\\flappyBird1.csproj|solutionrelative:flappybird1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A2AF21-2100-464F-9EA3-04B53232E903}|flappyBird1\\flappyBird1.csproj|c:\\users\\win11\\source\\repos\\flappybird1\\flappybird1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A2AF21-2100-464F-9EA3-04B53232E903}|flappyBird1\\flappyBird1.csproj|solutionrelative:flappybird1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\win11\\source\\repos\\flappyBird1\\flappyBird1\\Form1.cs",
+              "RelativeDocumentMoniker": "flappyBird1\\Form1.cs",
+              "ToolTip": "C:\\Users\\win11\\source\\repos\\flappyBird1\\flappyBird1\\Form1.cs",
+              "RelativeToolTip": "flappyBird1\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T17:14:07.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\win11\\source\\repos\\flappyBird1\\flappyBird1\\Form1.cs",
+              "RelativeDocumentMoniker": "flappyBird1\\Form1.cs",
+              "ToolTip": "C:\\Users\\win11\\source\\repos\\flappyBird1\\flappyBird1\\Form1.cs [Tasar\u0131m]",
+              "RelativeToolTip": "flappyBird1\\Form1.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T17:12:51.176Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+C:\Users\win11\source\repos\flappyBird1\flappyBird1\bin\Debug\net8.0-windows\flappyBird1.exe
+C:\Users\win11\source\repos\flappyBird1\flappyBird1\bin\Debug\net8.0-windows\flappyBird1.deps.json
+C:\Users\win11\source\repos\flappyBird1\flappyBird1\bin\Debug\net8.0-windows\flappyBird1.runtimeconfig.json
+C:\Users\win11\source\repos\flappyBird1\flappyBird1\bin\Debug\net8.0-windows\flappyBird1.dll
+C:\Users\win11\source\repos\flappyBird1\flappyBird1\bin\Debug\net8.0-windows\flappyBird1.pdb
+C:\Users\win11\source\repos\flappyBird1\flappyBird1\obj\Debug\net8.0-windows\flappyBird1.Form1.resources
+C:\Users\win11\source\repos\flappyBird1\flappyBird1\obj\Debug\net8.0-windows\flappyBird1.Properties.Resources.resources
+C:\Users\win11\source\repos\flappyBird1\flappyBird1\obj\Debug\net8.0-windows\flappyBird1.csproj.GenerateResource.cache
+C:\Users\win11\source\repos\flappyBird1\flappyBird1\obj\Debug\net8.0-windows\flappyBird1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win11\source\repos\flappyBird1\flappyBird1\obj\Debug\net8.0-windows\flappyBird1.AssemblyInfoInputs.cache
+C:\Users\win11\source\repos\flappyBird1\flappyBird1\obj\Debug\net8.0-windows\flappyBird1.AssemblyInfo.cs
+C:\Users\win11\source\repos\flappyBird1\flappyBird1\obj\Debug\net8.0-windows\flappyBird1.csproj.CoreCompileInputs.cache
+C:\Users\win11\source\repos\flappyBird1\flappyBird1\obj\Debug\net8.0-windows\flappyBird1.dll
+C:\Users\win11\source\repos\flappyBird1\flappyBird1\obj\Debug\net8.0-windows\refint\flappyBird1.dll
+C:\Users\win11\source\repos\flappyBird1\flappyBird1\obj\Debug\net8.0-windows\flappyBird1.pdb
+C:\Users\win11\source\repos\flappyBird1\flappyBird1\obj\Debug\net8.0-windows\flappyBird1.genruntimeconfig.cache
+C:\Users\win11\source\repos\flappyBird1\flappyBird1\obj\Debug\net8.0-windows\ref\flappyBird1.dll
