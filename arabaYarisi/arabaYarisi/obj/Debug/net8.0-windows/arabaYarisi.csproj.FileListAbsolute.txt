@@ -1,0 +1,17 @@
+C:\Users\win11\source\repos\arabaYarisi\arabaYarisi\bin\Debug\net8.0-windows\arabaYarisi.exe
+C:\Users\win11\source\repos\arabaYarisi\arabaYarisi\bin\Debug\net8.0-windows\arabaYarisi.deps.json
+C:\Users\win11\source\repos\arabaYarisi\arabaYarisi\bin\Debug\net8.0-windows\arabaYarisi.runtimeconfig.json
+C:\Users\win11\source\repos\arabaYarisi\arabaYarisi\bin\Debug\net8.0-windows\arabaYarisi.dll
+C:\Users\win11\source\repos\arabaYarisi\arabaYarisi\bin\Debug\net8.0-windows\arabaYarisi.pdb
+C:\Users\win11\source\repos\arabaYarisi\arabaYarisi\obj\Debug\net8.0-windows\arabaYarisi.Form1.resources
+C:\Users\win11\source\repos\arabaYarisi\arabaYarisi\obj\Debug\net8.0-windows\arabaYarisi.Properties.Resources.resources
+C:\Users\win11\source\repos\arabaYarisi\arabaYarisi\obj\Debug\net8.0-windows\arabaYarisi.csproj.GenerateResource.cache
+C:\Users\win11\source\repos\arabaYarisi\arabaYarisi\obj\Debug\net8.0-windows\arabaYarisi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win11\source\repos\arabaYarisi\arabaYarisi\obj\Debug\net8.0-windows\arabaYarisi.AssemblyInfoInputs.cache
+C:\Users\win11\source\repos\arabaYarisi\arabaYarisi\obj\Debug\net8.0-windows\arabaYarisi.AssemblyInfo.cs
+C:\Users\win11\source\repos\arabaYarisi\arabaYarisi\obj\Debug\net8.0-windows\arabaYarisi.csproj.CoreCompileInputs.cache
+C:\Users\win11\source\repos\arabaYarisi\arabaYarisi\obj\Debug\net8.0-windows\arabaYarisi.dll
+C:\Users\win11\source\repos\arabaYarisi\arabaYarisi\obj\Debug\net8.0-windows\refint\arabaYarisi.dll
+C:\Users\win11\source\repos\arabaYarisi\arabaYarisi\obj\Debug\net8.0-windows\arabaYarisi.pdb
+C:\Users\win11\source\repos\arabaYarisi\arabaYarisi\obj\Debug\net8.0-windows\arabaYarisi.genruntimeconfig.cache
+C:\Users\win11\source\repos\arabaYarisi\arabaYarisi\obj\Debug\net8.0-windows\ref\arabaYarisi.dll
