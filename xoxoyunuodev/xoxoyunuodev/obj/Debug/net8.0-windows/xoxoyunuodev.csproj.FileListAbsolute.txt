@@ -1,0 +1,17 @@
+C:\Users\win11\source\repos\xoxoyunuodev\xoxoyunuodev\obj\Debug\net8.0-windows\xoxoyunuodev.Form1.resources
+C:\Users\win11\source\repos\xoxoyunuodev\xoxoyunuodev\obj\Debug\net8.0-windows\xoxoyunuodev.csproj.GenerateResource.cache
+C:\Users\win11\source\repos\xoxoyunuodev\xoxoyunuodev\obj\Debug\net8.0-windows\xoxoyunuodev.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\win11\source\repos\xoxoyunuodev\xoxoyunuodev\obj\Debug\net8.0-windows\xoxoyunuodev.AssemblyInfoInputs.cache
+C:\Users\win11\source\repos\xoxoyunuodev\xoxoyunuodev\obj\Debug\net8.0-windows\xoxoyunuodev.AssemblyInfo.cs
+C:\Users\win11\source\repos\xoxoyunuodev\xoxoyunuodev\obj\Debug\net8.0-windows\xoxoyunuodev.csproj.CoreCompileInputs.cache
+C:\Users\win11\source\repos\xoxoyunuodev\xoxoyunuodev\bin\Debug\net8.0-windows\xoxoyunuodev.exe
+C:\Users\win11\source\repos\xoxoyunuodev\xoxoyunuodev\bin\Debug\net8.0-windows\xoxoyunuodev.deps.json
+C:\Users\win11\source\repos\xoxoyunuodev\xoxoyunuodev\bin\Debug\net8.0-windows\xoxoyunuodev.runtimeconfig.json
+C:\Users\win11\source\repos\xoxoyunuodev\xoxoyunuodev\bin\Debug\net8.0-windows\xoxoyunuodev.dll
+C:\Users\win11\source\repos\xoxoyunuodev\xoxoyunuodev\bin\Debug\net8.0-windows\xoxoyunuodev.pdb
+C:\Users\win11\source\repos\xoxoyunuodev\xoxoyunuodev\obj\Debug\net8.0-windows\xoxoyunuodev.dll
+C:\Users\win11\source\repos\xoxoyunuodev\xoxoyunuodev\obj\Debug\net8.0-windows\refint\xoxoyunuodev.dll
+C:\Users\win11\source\repos\xoxoyunuodev\xoxoyunuodev\obj\Debug\net8.0-windows\xoxoyunuodev.pdb
+C:\Users\win11\source\repos\xoxoyunuodev\xoxoyunuodev\obj\Debug\net8.0-windows\xoxoyunuodev.genruntimeconfig.cache
+C:\Users\win11\source\repos\xoxoyunuodev\xoxoyunuodev\obj\Debug\net8.0-windows\ref\xoxoyunuodev.dll
+C:\Users\win11\source\repos\xoxoyunuodev\xoxoyunuodev\obj\Debug\net8.0-windows\xoxoyunuodev.Properties.Resources.resources

@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\win11\\source\\repos\\xoxoyunuodev\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27354A44-48F1-4E0C-9F4C-33CD32189043}|xoxoyunuodev\\xoxoyunuodev.csproj|c:\\users\\win11\\source\\repos\\xoxoyunuodev\\xoxoyunuodev\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{27354A44-48F1-4E0C-9F4C-33CD32189043}|xoxoyunuodev\\xoxoyunuodev.csproj|solutionrelative:xoxoyunuodev\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27354A44-48F1-4E0C-9F4C-33CD32189043}|xoxoyunuodev\\xoxoyunuodev.csproj|c:\\users\\win11\\source\\repos\\xoxoyunuodev\\xoxoyunuodev\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27354A44-48F1-4E0C-9F4C-33CD32189043}|xoxoyunuodev\\xoxoyunuodev.csproj|solutionrelative:xoxoyunuodev\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\win11\\source\\repos\\xoxoyunuodev\\xoxoyunuodev\\Form1.cs",
+              "RelativeDocumentMoniker": "xoxoyunuodev\\Form1.cs",
+              "ToolTip": "C:\\Users\\win11\\source\\repos\\xoxoyunuodev\\xoxoyunuodev\\Form1.cs",
+              "RelativeToolTip": "xoxoyunuodev\\Form1.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAA2wMUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T14:38:32.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\win11\\source\\repos\\xoxoyunuodev\\xoxoyunuodev\\Form1.cs",
+              "RelativeDocumentMoniker": "xoxoyunuodev\\Form1.cs",
+              "ToolTip": "C:\\Users\\win11\\source\\repos\\xoxoyunuodev\\xoxoyunuodev\\Form1.cs [Tasar\u0131m]",
+              "RelativeToolTip": "xoxoyunuodev\\Form1.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T14:36:40.565Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
