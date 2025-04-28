@@ -5,19 +5,19 @@ namespace flappyBird1
 {
     public partial class Form1 : Form
     {
-        int pipeSpeed = 10;                // Boruların hareket hızı
-        double gravity = 0.8;              // Kuşun düşüş hızı
-        double jumpSpeed = 12;             // Kuşun zıplama hızı
-        double velocity = 0;                // Kuşun mevcut hızı
+        int pipeSpeed = 10;                // BorularÃ½n hareket hÃ½zÃ½
+        double gravity = 0.8;              // KuÃ¾un dÃ¼Ã¾Ã¼Ã¾ hÃ½zÃ½
+        double jumpSpeed = 12;             // KuÃ¾un zÃ½plama hÃ½zÃ½
+        double velocity = 0;                // KuÃ¾un mevcut hÃ½zÃ½
         int score = 0;                      // Skor
-        const int pipeWidth = 60;           // Boruların genişliği
-        const int minPipeHeight = 50;       // Minimum üst boru yüksekliği
-        const int maxPipeHeight = 400;      // Maksimum üst boru yüksekliği
-        const int minPipeGap = 100;         // Borular arasındaki minimum boşluk
-        const int maxPipeGap = 200;         // Borular arasındaki maksimum boşluk
-        const int groundHeight = 62;        // Zemin yüksekliği
-        Random rand = new Random();         // Rastgele sayı üretici
-        bool isJumping = false;             // Kuşun zıplayıp zıplamadığını kontrol etmek için
+        const int pipeWidth = 60;           // BorularÃ½n geniÃ¾liÃ°i
+        const int minPipeHeight = 50;       // Minimum Ã¼st boru yÃ¼ksekliÃ°i
+        const int maxPipeHeight = 400;      // Maksimum Ã¼st boru yÃ¼ksekliÃ°i
+        const int minPipeGap = 100;         // Borular arasÃ½ndaki minimum boÃ¾luk
+        const int maxPipeGap = 200;         // Borular arasÃ½ndaki maksimum boÃ¾luk
+        const int groundHeight = 62;        // Zemin yÃ¼ksekliÃ°i
+        Random rand = new Random();         // Rastgele sayÃ½ Ã¼retici
+        bool isJumping = false;             // KuÃ¾un zÃ½playÃ½p zÃ½plamadÃ½Ã°Ã½nÃ½ kontrol etmek iÃ§in
 
         public Form1()
         {
@@ -27,7 +27,7 @@ namespace flappyBird1
             gameTimer.Interval = 20;
             gameTimer.Enabled = false;
 
-            startGame.Enabled = true; // Başla butonunu aktif hale getir
+            startGame.Enabled = true; // BaÃ¾la butonunu aktif hale getir
         }
 
         private void startGame_Click(object sender, EventArgs e)
@@ -36,61 +36,62 @@ namespace flappyBird1
             score = 0;
             scoreText.Text = "Skor: 0";
 
-            flappyBird.Top = 200; // Kuşun başlangıç yüksekliği
-            resetPipes(); // Boruları ayarla
+            flappyBird.Top = 200; // KuÃ¾un baÃ¾langÃ½Ã§ yÃ¼ksekliÃ°i
+            resetPipes(); // BorularÃ½ ayarla
 
-            startGame.Enabled = false; // Başla butonunu devre dışı bırak
+            startGame.Enabled = false; // BaÃ¾la butonunu devre dÃ½Ã¾Ã½ bÃ½rak
         }
+
 
         private void resetPipes()
         {
-            // Rastgele boşluk ve üst boru yüksekliği belirle
+            // Rastgele boÃ¾luk ve Ã¼st boru yÃ¼ksekliÃ°i belirle
             int pipeGap = rand.Next(minPipeGap, maxPipeGap);
-            int topHeight = rand.Next(minPipeHeight, maxPipeHeight); // 50 ile 400 arasında rastgele yükseklik
+            int topHeight = rand.Next(minPipeHeight, maxPipeHeight); // 50 ile 400 arasÃ½nda rastgele yÃ¼kseklik
 
-            pipeBottom.Left = 700; // Alt borunun başlangıç konumu
-            pipeTop.Left = 700;    // Üst borunun başlangıç konumu
+            pipeBottom.Left = 700; // Alt borunun baÃ¾langÃ½Ã§ konumu
+            pipeTop.Left = 700;    // Ãœst borunun baÃ¾langÃ½Ã§ konumu
 
-            // Üst borunun yüksekliğini ayarla
+            // Ãœst borunun yÃ¼ksekliÃ°ini ayarla
             pipeTop.Size = new System.Drawing.Size(pipeWidth, topHeight);
-            pipeTop.Top = 0; // Üst boru en üstte kalacak
+            pipeTop.Top = 0; // Ãœst boru en Ã¼stte kalacak
 
-            // Alt borunun yüksekliğini ayarla ve zeminle birleşmesini sağla
+            // Alt borunun yÃ¼ksekliÃ°ini ayarla ve zeminle birleÃ¾mesini saÃ°la
             int bottomHeight = this.ClientSize.Height - groundHeight - (topHeight + pipeGap);
             pipeBottom.Size = new System.Drawing.Size(pipeWidth, bottomHeight); // Alt borunun boyutunu ayarla
-            pipeBottom.Top = this.ClientSize.Height - groundHeight; // Alt boru zeminle birleşecek
+            pipeBottom.Top = this.ClientSize.Height - groundHeight; // Alt boru zeminle birleÃ¾ecek
 
             // Borunun konumunu kontrol et
             if (bottomHeight < 0)
             {
-                bottomHeight = 0; // Eğer borunun yüksekliği negatif olursa, sıfıra ayarla
+                bottomHeight = 0; // EÃ°er borunun yÃ¼ksekliÃ°i negatif olursa, sÃ½fÃ½ra ayarla
             }
-            pipeBottom.Top = this.ClientSize.Height - bottomHeight - groundHeight; // Alt borunun konumunu güncelle
+            pipeBottom.Top = this.ClientSize.Height - bottomHeight - groundHeight; // Alt borunun konumunu gÃ¼ncelle
         }
 
         private void gameTimerEvent(object sender, EventArgs e)
         {
             if (isJumping)
             {
-                velocity = -jumpSpeed; // Zıplama hareketi
-                isJumping = false;      // Zıplama tamamlandı
+                velocity = -jumpSpeed; // ZÃ½plama hareketi
+                isJumping = false;      // ZÃ½plama tamamlandÃ½
             }
             else
             {
-                velocity += gravity;   // Yerçekimi etkisi
+                velocity += gravity;   // YerÃ§ekimi etkisi
             }
 
-            flappyBird.Top += (int)velocity; // Kuşun yukarı ya da aşağı hareketi
+            flappyBird.Top += (int)velocity; // KuÃ¾un yukarÃ½ ya da aÃ¾aÃ°Ã½ hareketi
 
             pipeBottom.Left -= pipeSpeed;
             pipeTop.Left -= pipeSpeed;
             scoreText.Text = "Skor: " + score;
 
-            // Eğer borular ekran dışına çıkarsa, yeni boruları ayarlıyoruz
+            // EÃ°er borular ekran dÃ½Ã¾Ã½na Ã§Ã½karsa, yeni borularÃ½ ayarlÃ½yoruz
             if (pipeBottom.Left < -100)
             {
-                resetPipes(); // Yeni borular için resetle
-                score++; // Skoru artır
+                resetPipes(); // Yeni borular iÃ§in resetle
+                score++; // Skoru artÃ½r
             }
 
             if (flappyBird.Bounds.IntersectsWith(pipeBottom.Bounds) ||
@@ -105,19 +106,19 @@ namespace flappyBird1
                 endGame();
             }
 
-            // Kuşun zeminle çarpışmasını kontrol et
+            // KuÃ¾un zeminle Ã§arpÃ½Ã¾masÃ½nÃ½ kontrol et
             if (flappyBird.Top + flappyBird.Height >= ground.Top)
             {
-                flappyBird.Top = ground.Top - flappyBird.Height; // Kuşu zemine oturt
-                velocity = 0; // Düşmeyi durdur
+                flappyBird.Top = ground.Top - flappyBird.Height; // KuÃ¾u zemine oturt
+                velocity = 0; // DÃ¼Ã¾meyi durdur
             }
         }
 
         private void jumpButton_Click(object sender, EventArgs e)
         {
-            if (flappyBird.Top > 0) // Kuşun yukarı zıplamasını sağla
+            if (flappyBird.Top > 0) // KuÃ¾un yukarÃ½ zÃ½plamasÃ½nÃ½ saÃ°la
             {
-                isJumping = true; // Zıplama işlemi başlat
+                isJumping = true; // ZÃ½plama iÃ¾lemi baÃ¾lat
             }
         }
 
@@ -125,7 +126,7 @@ namespace flappyBird1
         {
             gameTimer.Stop();
             scoreText.Text += " Oyun Bitti!!!";
-            startGame.Enabled = true; // Oyun bittiğinde Başla butonunu tekrar aktif hale getir
+            startGame.Enabled = true; // Oyun bittiÃ°inde BaÃ¾la butonunu tekrar aktif hale getir
         }
     }
 }
