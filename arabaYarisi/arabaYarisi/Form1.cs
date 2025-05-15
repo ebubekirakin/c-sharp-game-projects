@@ -7,61 +7,62 @@ namespace arabaYarisi
 {
     public partial class Form1 : Form
     {
-        // Skor için bir değişken
+        // Skor iÃ§in bir deÃ°iÃ¾ken
         int skor = 0;
 
         public Form1()
         {
             InitializeComponent();
-            this.KeyPreview = true;  // Klavye olaylarının formda işlenmesini sağlarız
+            this.KeyPreview = true;  // Klavye olaylarÃ½nÃ½n formda iÃ¾lenmesini saÃ°larÃ½z
 
-            // GameTimer'ı başlatıyoruz
+            // GameTimer'Ã½ baÃ¾latÃ½yoruz
             gameTimer.Start();
         }
 
-        // Form yüklendiğinde focus almasını sağlıyoruz
+        // Form yÃ¼klendiÃ°inde focus almasÃ½nÃ½ saÃ°lÃ½yoruz
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.Focus();  // Form üzerine focus al
+            this.Focus();  // Form Ã¼zerine focus al
         }
 
-        // Oyuncu arabasını yönlendirmek için kullanılan KeyDown olayı
+        // Oyuncu arabasÃ½nÃ½ yÃ¶nlendirmek iÃ§in kullanÃ½lan KeyDown olayÃ½
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            this.Focus();  // Klavye olayları form tarafından alınsın
+         
+            this.Focus();  // Klavye olaylarÃ½ form tarafÃ½ndan alÃ½nsÃ½n
 
-            // Sağ yön tuşu
+            // SaÃ° yÃ¶n tuÃ¾u
             if (e.KeyCode == Keys.Right)
             {
-                // Eğer oyuncu arabası ekranın sağ kenarına çarpmıyorsa, sağa hareket et
+                // EÃ°er oyuncu arabasÃ½ ekranÃ½n saÃ° kenarÃ½na Ã§arpmÃ½yorsa, saÃ°a hareket et
                 if (pbOyuncuAraba.Left < this.ClientSize.Width - pbOyuncuAraba.Width)
-                    pbOyuncuAraba.Left += 10; // 10 pixel sağa hareket et
+                    pbOyuncuAraba.Left += 10; // 10 pixel saÃ°a hareket et
             }
-            // Sol yön tuşu
+            // Sol yÃ¶n tuÃ¾u
             if (e.KeyCode == Keys.Left)
             {
-                // Eğer oyuncu arabası ekranın sol kenarına çarpmıyorsa, sola hareket et
+                // EÃ°er oyuncu arabasÃ½ ekranÃ½n sol kenarÃ½na Ã§arpmÃ½yorsa, sola hareket et
                 if (pbOyuncuAraba.Left > 0)
                     pbOyuncuAraba.Left -= 10; // 10 pixel sola hareket et
             }
         }
 
-        // GameTimer tick olayı
+        // GameTimer tick olayÃ½
         private void gameTimer_Tick(object sender, EventArgs e)
         {
-            this.Focus();  // Timer tick olayında da formun focus'lanmasını sağla
+            this.Focus();  // Timer tick olayÃ½nda da formun focus'lanmasÃ½nÃ½ saÃ°la
 
-            // Trafik arabalarını aşağıya kaydırıyoruz
+            // Trafik arabalarÃ½nÃ½ aÃ¾aÃ°Ã½ya kaydÃ½rÃ½yoruz
             pbTrafik1.Top += 5;
             pbTrafik2.Top += 5;
             pbTrafik3.Top += 5;
 
-            // Trafik arabalarının ekrandan çıktığını kontrol et
+            // Trafik arabalarÃ½nÃ½n ekrandan Ã§Ã½ktÃ½Ã°Ã½nÃ½ kontrol et
             if (pbTrafik1.Top > this.ClientSize.Height)
             {
-                pbTrafik1.Top = -100; // Yeniden üstten gelmesi için
+                pbTrafik1.Top = -100; // Yeniden Ã¼stten gelmesi iÃ§in
                 pbTrafik1.Left = new Random().Next(0, this.ClientSize.Width - pbTrafik1.Width); // Random x konumu
-                skor++; // Skoru artır
+                skor++; // Skoru artÃ½r
             }
             if (pbTrafik2.Top > this.ClientSize.Height)
             {
@@ -76,10 +77,10 @@ namespace arabaYarisi
                 skor++;
             }
 
-            // Skoru güncelle
+            // Skoru gÃ¼ncelle
             lblSkor.Text = "Skor: " + skor;
 
-            // Çarpma kontrolü (çarpan arabaları kontrol et)
+            // Ã‡arpma kontrolÃ¼ (Ã§arpan arabalarÃ½ kontrol et)
             if (pbOyuncuAraba.Bounds.IntersectsWith(pbTrafik1.Bounds) || pbOyuncuAraba.Bounds.IntersectsWith(pbTrafik2.Bounds) || pbOyuncuAraba.Bounds.IntersectsWith(pbTrafik3.Bounds))
             {
                 gameTimer.Stop(); // Oyun biter
