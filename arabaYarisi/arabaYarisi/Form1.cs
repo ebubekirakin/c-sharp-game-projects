@@ -10,6 +10,7 @@ namespace arabaYarisi
         // Skor için bir deðiþken
         int skor = 0;
 
+
         public Form1()
         {
             InitializeComponent();
