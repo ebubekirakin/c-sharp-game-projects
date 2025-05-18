@@ -1,5 +1,6 @@
 namespace flappyBird1
 {
+    
     internal static class Program
     {
         /// <summary>
