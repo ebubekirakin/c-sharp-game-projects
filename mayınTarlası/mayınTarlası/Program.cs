@@ -13,5 +13,6 @@ namespace mayınTarlası
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
         }
+        
     }
 }
