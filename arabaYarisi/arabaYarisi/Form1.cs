@@ -5,6 +5,8 @@ using System.Windows.Forms;
 
 namespace arabaYarisi
 {
+
+    
     public partial class Form1 : Form
     {
         // Skor için bir deðiþken
